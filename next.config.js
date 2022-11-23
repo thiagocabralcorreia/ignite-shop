@@ -5,11 +5,8 @@ const nextConfig = {
   images: {
     domains: ["files.stripe.com"],
   },
-
   experimental: {
-    images: {
-      unoptimized: true,
-    },
+    newNextLinkBehavior: true,
   },
 };
 
